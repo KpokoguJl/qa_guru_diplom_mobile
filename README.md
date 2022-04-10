@@ -8,11 +8,11 @@
 <img width="16%" title="JUnit5" src="media/JUnit5.svg">
 <img width="16%" title="IntelliJ IDEA" src="media/Intelij_IDEA.svg">
 <img width="16%" title="Selenide" src="media/Selenide.svg">
+<img width="14%" title="Browserstack" src="media/BrowserstackLogo.svg">
 <img width="16%" title="Android Studio" src="media/AndroidStudioLogo.svg">
 <img width="16%" title="Allure Report" src="media/Allure_Report.svg">
 <img width="16%" title="GitHub" src="media/GitHub.svg">
 <img width="16%" title="Jenkins" src="media/Jenkins.svg">
-<img width="14%" title="Browserstack" src="media/BrowserstackLogo.svg">
 <img width="15%" title="Allure TestOps" src="media/Allure-logo.svg">
 </p>
 
