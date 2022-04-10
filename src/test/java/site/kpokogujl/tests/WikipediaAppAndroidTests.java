@@ -1,6 +1,8 @@
 package site.kpokogujl.tests;
 
 import io.appium.java_client.AppiumBy;
+import io.qameta.allure.*;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.CollectionCondition.size;
@@ -13,6 +15,11 @@ import static io.qameta.allure.Allure.step;
 
 public class WikipediaAppAndroidTests extends TestBase {
     @Test
+    @Owner("allure8")
+    @Feature("Wikipedia Mobile App Tests")
+    @Story("Onboarding Screen Tests")
+    @Severity(SeverityLevel.NORMAL)
+    @DisplayName("Добавление русского языка на первом экране")
     void addLanguageOnFirstScreen() {
 
         step("Кликаю добавить язык", () -> {
@@ -42,6 +49,11 @@ public class WikipediaAppAndroidTests extends TestBase {
     }
 
     @Test
+    @Owner("allure8")
+    @Feature("Wikipedia Mobile App Tests")
+    @Story("Onboarding Screen Tests")
+    @Severity(SeverityLevel.NORMAL)
+    @DisplayName("Проверка текста на втором экране онбординга")
     void checkTextOnSecondScreen() {
 
         String textOnScreenTwo = "Dive down the Wikipedia rabbit hole with a constantly updating Explore feed. \n" +
@@ -58,6 +70,11 @@ public class WikipediaAppAndroidTests extends TestBase {
     }
 
     @Test
+    @Owner("allure8")
+    @Feature("Wikipedia Mobile App Tests")
+    @Story("Onboarding Screen Tests")
+    @Severity(SeverityLevel.NORMAL)
+    @DisplayName("Проверка текста на третьем экране")
     void checkTextOnThirdScreen() {
 
         String textOnScreenThree = "You can make reading lists from articles you want to read later, even when you’re offline. \n" +
@@ -75,6 +92,11 @@ public class WikipediaAppAndroidTests extends TestBase {
     }
 
     @Test
+    @Owner("allure8")
+    @Feature("Wikipedia Mobile App Tests")
+    @Story("Onboarding Screen Tests")
+    @Severity(SeverityLevel.NORMAL)
+    @DisplayName("Проверка свитча отправки статистики на четвертом экране")
     void checkTextOnFourthScreen() {
 
         String textOnScreenFour = "Help make the app better by letting us know how you use it. Data collected is anonymous. Learn more";
@@ -109,6 +131,11 @@ public class WikipediaAppAndroidTests extends TestBase {
     }
 
     @Test
+    @Owner("allure8")
+    @Feature("Wikipedia Mobile App Tests")
+    @Story("Search Tests")
+    @Severity(SeverityLevel.NORMAL)
+    @DisplayName("Проверка поиска")
     void searchTest(){
 
         step("Закрываю экран настроек", () -> {

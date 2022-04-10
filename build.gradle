@@ -7,12 +7,12 @@ repositories {
     mavenCentral()
 }
 
-def selenideVersion = "6.3.4",
+def selenideVersion = "6.4.0",
     junitVersion = "5.8.2",
     slf4jVersion = "1.7.36",
     javaFakerVersion = "1.0.2",
     allureSelenideVersion = "2.17.3",
-    allureRestAssuredVersion = "2.17.2",
+    allureRestAssuredVersion = "2.17.3",
     ownerVersion = "1.0.12",
     restAssuredVersion = "4.5.1",
     assertjVersion = "3.22.0",
@@ -66,7 +66,6 @@ tasks.withType(Test) {
 
     testLogging {
         lifecycle {
-//            events "started", "failed"
             events "started", "skipped", "failed", "standard_error", "standard_out"
             exceptionFormat "short"
         }
