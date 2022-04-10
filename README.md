@@ -79,8 +79,8 @@ test
 Пример скриншота
 ![](media/AllureReportScreenshot.svg)
 
-# Пример прохождения теста на удаленной машине (клик для просмотра)
-[![Watch the video](media/VideoPreview.svg)](https://app-automate.browserstack.com/sessions/229e141fc6d99625f9041a2b26caaef5911d5c92/video?token=Z1BHejVwcTAzUVZ1SThJaDVSVDdIMkVDcXgzSmpqSzJMT0VTTGtLVjV4WWZBdzNlTFJLdURzNkhGdmtNaExLc2VxSU5xR3JBYWF2ZFh1UGsrUUp5eUE9PS0tVEg2aGxTMVN5MmFIZGtvei9NU09GZz09--29e421f8e5e2fbbb127449f1ca57c8306f8348c7&source=rest_api&diff=2.566652564)
+# Пример прохождения теста на удаленной машине (клик для просмотра видео)
+[![Watch the video](media/TestRun.gif)](https://app-automate.browserstack.com/sessions/229e141fc6d99625f9041a2b26caaef5911d5c92/video?token=Z1BHejVwcTAzUVZ1SThJaDVSVDdIMkVDcXgzSmpqSzJMT0VTTGtLVjV4WWZBdzNlTFJLdURzNkhGdmtNaExLc2VxSU5xR3JBYWF2ZFh1UGsrUUp5eUE9PS0tVEg2aGxTMVN5MmFIZGtvei9NU09GZz09--29e421f8e5e2fbbb127449f1ca57c8306f8348c7&source=rest_api&diff=2.566652564)
 
 # Результаты работы тестов в Browserstack
 ![](media/BrowserstackRuns.svg)
