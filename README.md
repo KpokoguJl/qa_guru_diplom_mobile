@@ -87,7 +87,7 @@ test
 
 ![](media/BrowserstackRunResult.svg)
 
-# По резултатам работы тестов отправляется краткий отчет в Telegram
+# По результатам работы тестов отправляется краткий отчет в Telegram
 ![](media/TelegramBot.svg)
 
 # Создан проект в Allure TestOps
