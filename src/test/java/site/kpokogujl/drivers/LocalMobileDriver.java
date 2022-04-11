@@ -57,8 +57,7 @@ public class LocalMobileDriver implements WebDriverProvider {
                     "releases/download/latest/app-alpha-universal-release.apk?raw=true";
             try (InputStream in = new URL(url).openStream()) {
                 copyInputStreamToFile(in, apk);
-            }
-            catch (IOException e) {
+            } catch (IOException e) {
                 throw new AssertionError("Failed to download apk", e);
             }
         }

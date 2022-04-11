@@ -4,7 +4,7 @@ import org.aeonbits.owner.Config;
 
 @Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({"classpath:config/${device}.properties",
-                "classpath:config/credentials.properties"})
+        "classpath:config/credentials.properties"})
 public interface MobileConfig extends Config {
 
     @Key("device.name")
@@ -26,6 +26,7 @@ public interface MobileConfig extends Config {
     String device();
 
     String browserstackLogin();
+
     String browserstackPassword();
 
 }
